@@ -6,28 +6,28 @@
 class Uatu < Formula
   desc "Docs-tree watcher with Markdown/AsciiDoc preview and review-load score"
   homepage "https://github.com/tjakobsson/uatu"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.2.0/uatu-darwin-arm64.zip"
-      sha256 "bae80a9a4d8f58eeda57d9554f971a4b31d577f47f3e105045db2c29407de5f9"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.3.0/uatu-darwin-arm64.zip"
+      sha256 "37d228a04499a2661dd789424d13d20386becf567ee63c64b26743bad45b48b7"
     end
     on_intel do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.2.0/uatu-darwin-x64.zip"
-      sha256 "286c40635988e8ff3a9689ae466904bdc3867b54874fa96e32d950658a736d6b"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.3.0/uatu-darwin-x64.zip"
+      sha256 "d611b7d2c5542fe7ecbdf40a76759258c9f197d72b45597d67eedf2af9b7c687"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.2.0/uatu-linux-arm64.tar.gz"
-      sha256 "4abaffd4ddabb419bc81fbad72a45b5a23c0d22e1f2d1d83564146584cd53f04"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.3.0/uatu-linux-arm64.tar.gz"
+      sha256 "56cf225f14cc9efaec21fbb586acd4bafcf675bbdc49bb121608bce755abd761"
     end
     on_intel do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.2.0/uatu-linux-x64.tar.gz"
-      sha256 "719621f3bad28eabb01741ad827077dd31c31801368a77b107c196ccfff61f8e"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.3.0/uatu-linux-x64.tar.gz"
+      sha256 "d913f054b1fd4cd6a45bcd47c4beefca6b2e0138e7f2cf5a36318a071b330a40"
     end
   end
 
