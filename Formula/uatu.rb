@@ -6,30 +6,32 @@
 class Uatu < Formula
   desc "Docs-tree watcher with Markdown/AsciiDoc preview and review-load score"
   homepage "https://github.com/tjakobsson/uatu"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.4.0/uatu-darwin-arm64.zip"
-      sha256 "76df684d38a3f76e6e18cd5a004476f91ba0f12ec89881df922a9743a209e181"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.5.0/uatu-darwin-arm64.zip"
+      sha256 "f17755cb1928be98c823afdfb0c67f74fdd84248449ee722159690fdfaf3ebe0"
     end
     on_intel do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.4.0/uatu-darwin-x64.zip"
-      sha256 "95d34385dd6a1073ce82bae611ea80a338c24ee82195353b02408c17fa45bd0a"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.5.0/uatu-darwin-x64.zip"
+      sha256 "c35b13a7cbcad433660452a31e1a1fb9813f25611aa9f91b1c9fbbec909217e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.4.0/uatu-linux-arm64.tar.gz"
-      sha256 "01348289783d1b696a3c005a2f3a9c10faff21089f647a1047e8ca470d86493c"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.5.0/uatu-linux-arm64.tar.gz"
+      sha256 "66583904adad0667ee4a37482a757124e02d3090a320e29a5a1f21245b979f99"
     end
     on_intel do
-      url "https://github.com/tjakobsson/uatu/releases/download/v0.4.0/uatu-linux-x64.tar.gz"
-      sha256 "dffe9b56cdd2a9374aec18eae78199b1d5483bc8bed10bcfc4f8f0ddae615dd2"
+      url "https://github.com/tjakobsson/uatu/releases/download/v0.5.0/uatu-linux-x64.tar.gz"
+      sha256 "11429fa05b33a972c0469f4a348d7b2b4172f1b345ea05057466326022897e37"
     end
   end
+
+  conflicts_with "uatu-edge", because: "both install a `uatu` binary"
 
   def install
     bin.install "uatu"
