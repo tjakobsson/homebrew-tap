@@ -6,28 +6,28 @@
 class UatuEdge < Formula
   desc "Docs-tree watcher with Markdown/AsciiDoc preview and review-load score"
   homepage "https://github.com/tjakobsson/uatu"
-  version "0.8.0-edge.20261123123921.bae07d6"
+  version "0.8.0-edge.20261124030041.29aa598"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tjakobsson/uatu/releases/download/edge/uatu-darwin-arm64.zip"
-      sha256 "ed118249edab5a30af0375e4ec4b65c7e33473f49f9f9f8846fbb5b99edd9f79"
+      sha256 "16523b3df1d5427dbd72cb0cd2124d5b52c93417a424f795d342d14aa5e819d1"
     end
     on_intel do
       url "https://github.com/tjakobsson/uatu/releases/download/edge/uatu-darwin-x64.zip"
-      sha256 "9ad55bd0ea6716e2e423c34bf93bd627921f717778ccf2c3c9aa6e287cc6c3b4"
+      sha256 "b9c4832b012b82665a3e5b75d7952a4a84bbccc750dfad81d2f473c2c37f3b33"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tjakobsson/uatu/releases/download/edge/uatu-linux-arm64.tar.gz"
-      sha256 "992dd234f003be57331c00e39d8d81b0357290cefc65817b6db9346ea8a1c7aa"
+      sha256 "6ed26cf590a8e0a2eb61268e781a4a64cd66d9380e3f6df2ad1f1cd4e055698a"
     end
     on_intel do
       url "https://github.com/tjakobsson/uatu/releases/download/edge/uatu-linux-x64.tar.gz"
-      sha256 "d7632ecff0f945918b04a1fd12577d07179cf29ee039d5688d1919dc347bc997"
+      sha256 "d9caeb2543c4b2a8420a39fa0cdc06ead26fb54d65a038f4140c5222be8e9a97"
     end
   end
 
